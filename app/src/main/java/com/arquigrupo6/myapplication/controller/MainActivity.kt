@@ -1,13 +1,13 @@
-package com.arquigrupo6.myapplication
+package com.arquigrupo6.myapplication.controller
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import java.net.HttpURLConnection
-import java.net.URL
-import javax.xml.parsers.DocumentBuilderFactory
-import kotlin.concurrent.thread
+import com.arquigrupo6.myapplication.model.QuestionModel
+import com.arquigrupo6.myapplication.model.QuestionsAdapter
+import com.arquigrupo6.myapplication.R
+
 
 class MainActivity : AppCompatActivity() {
 

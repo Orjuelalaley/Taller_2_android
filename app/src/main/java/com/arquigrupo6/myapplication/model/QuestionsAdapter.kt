@@ -1,10 +1,11 @@
-package com.arquigrupo6.myapplication
+package com.arquigrupo6.myapplication.model
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.arquigrupo6.myapplication.R
 
 
 class QuestionsAdapter(private var questions: List<String>) :
@@ -14,6 +15,7 @@ class QuestionsAdapter(private var questions: List<String>) :
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.question_item, parent, false)
         return QuestionViewHolder(view)
+
     }
 
     override fun onBindViewHolder(holder: QuestionViewHolder, position: Int) {

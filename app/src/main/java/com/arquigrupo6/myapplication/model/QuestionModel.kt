@@ -1,4 +1,4 @@
-package com.arquigrupo6.myapplication
+package com.arquigrupo6.myapplication.model
 
 import java.net.HttpURLConnection
 import java.net.URL
